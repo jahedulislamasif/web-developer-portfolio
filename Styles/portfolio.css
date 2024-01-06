@@ -61,13 +61,13 @@ nav a {
 /* header related style */
 .head {
     background-color: #FFF8F3;
-    background-image: url('../images/header_bg.png');
+    background-image: url('../images/header_bg.png'),url('../images/developer.png');
     background-repeat: no-repeat;
-    background-position: bottom right;
+    background-position: bottom right, top left;
 }
 
-.banner {
-    padding-left: 30px 30px 30px 150px;
+.banner{
+    padding: 30px 30px 0 150px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -127,7 +127,7 @@ main section {
     padding: 30px 150px;
 }
 
-.skils-container {
+.skills-container {
     display: flex;
     gap: 24px;
 }
